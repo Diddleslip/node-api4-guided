@@ -12,6 +12,12 @@ In this project we will learn how to deploy a Web API to `heroku`.
 
 Please fork this repository and follow along **using your fork** as the instructor deploys the API to `heroku`.
 
+## Enviroment Variables
+
+Each developer must configure the following enviroment variables:
+
+-API_SECRET: it's used to restrict 
+
 ## Deployment to Heroku
 
 - Make the PORT. dynamic. Read the port from the enviroment.
