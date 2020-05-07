@@ -3,7 +3,7 @@
 module.exports = (req, res, next) => {
     const { authorization } = req.headers;
 
-    const API_SECRET = process.env.SECRET;
+    const API_SECRET = process.env.SECRET || "super secret";
 
     if(authorization === API_SECRET) {
         next();
